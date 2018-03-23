@@ -3,6 +3,8 @@ ENTRYPOINT ["/bin/logspout"]
 VOLUME /mnt/routes
 EXPOSE 80
 
+RUN apk update && apk add bash
+
 COPY . /src
 RUN cd /src && ./build.sh "$(cat VERSION)"
 
