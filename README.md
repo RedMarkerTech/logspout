@@ -20,6 +20,6 @@ import (
 )
 ```
 
-Save `https://github.com/looplab/logspout-logstash/blob/master/logstash.go` in `adapters/logstash`.
+Save `https://github.com/looplab/logspout-logstash/blob/master/logstash.go` to `adapters/logstash/logstash.go`.
 
 Apply [this patch](https://github.com/gliderlabs/logspout/pull/375/files) to `build.sh`.
