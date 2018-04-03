@@ -1,6 +1,8 @@
 # logspout
 
-Contents of this repo.
+Logspout with [build fix](https://github.com/gliderlabs/logspout/pull/375/files) and [TCP](https://github.com/looplab/logspout-logstash)+UDP logging enabled.
+
+Contents of this repo:
 
 ```
 git clone https://github.com/gliderlabs/logspout
