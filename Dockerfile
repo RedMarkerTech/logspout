@@ -3,6 +3,8 @@ ENTRYPOINT ["/bin/logspout"]
 VOLUME /mnt/routes
 EXPOSE 80
 
+RUN apk add --no-cache tzdata
+
 COPY . /src
 RUN cd /src && ./build.sh "$(cat VERSION)"
 
